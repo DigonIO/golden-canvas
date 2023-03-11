@@ -321,7 +321,7 @@ export default makeScene2D(function* (view) {
         <>
             <Latex
                 ref={REF_RATIO_0_C}
-                tex={LATEX`${CLRT.WHITE}\frac{${CLRT.CAT.B}A\color{white}+${CLRT.CAT.E}B}{${CLRT.CAT.B}A}`}
+                tex={LATEX`${CLRT.WHITE}\frac{${CLRT.CAT.E}A\color{white}+${CLRT.CAT.E}B}{${CLRT.CAT.B}A}`}
                 height={TEX_HEIGHT * 3}
                 alpha={0} />
             <Latex
